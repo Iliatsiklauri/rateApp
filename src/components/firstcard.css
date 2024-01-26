@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+.firstcard {
+  width: 327px;
+  height: 360px;
+  border-radius: 15px;
+  background: var(
+    --black-gradient,
+    radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.star1 {
+  align-self: flex-start;
+  margin-left: 21px;
+  margin-top: 24px;
+}
+@media screen and (1000px < width) {
+  .firstcard {
+    width: 412px;
+    height: 416px;
+  }
+  .title {
+    font-size: 28px;
+    width: 340px;
+  }
+  .text {
+    width: 340px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}

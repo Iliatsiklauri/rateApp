@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+.sbmt {
+  width: 279px;
+  height: 45px;
+  border-radius: 22.5px;
+  background: var(--Orange, #fc7614);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 44px;
+  cursor: pointer;
+}
+div.sbmt h1 {
+  color: var(--Pure-White, #fff);
+  font-family: Overpass;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.867px;
+}
+.sbmt:hover {
+  background: var(--Pure-White, #fff);
+}
+.sbmt:hover h1 {
+  color: var(--Orange, #fc7614);
+}
+@media screen and (1000px < width) {
+  .sbmt {
+    width: 340px;
+  }
+}

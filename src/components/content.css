@@ -1,0 +1,22 @@
+h2 {
+  color: var(--Pure-White, #fff);
+  font-family: Overpass;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 279px;
+  height: 37px;
+  margin-bottom: 10px;
+}
+p {
+  width: 279px;
+  height: 66px;
+
+  color: var(--Light-Grey, #969fad);
+  font-family: Overpass;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}

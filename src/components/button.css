@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+.buttonWrapper {
+  width: 281px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  width: 42px;
+  height: 42px;
+  background: var(--Dark-Blue, #262e38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3px;
+  border-radius: 30px;
+  color: var(--Medium-Gray, #7c8798);
+  text-align: center;
+  font-family: Overpass;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.175px;
+  cursor: pointer;
+}
+
+.button:hover:not(.selected) {
+  background: var(--Medium-Gray, #7c8798);
+  color: white;
+}
+
+.selected {
+  background: var(--Orange, #fc7614);
+  color: white;
+}
+@media screen and (1000px < width) {
+  .buttonWrapper {
+    width: 341px;
+  }
+  .button {
+    width: 51px;
+    height: 51px;
+  }
+}
