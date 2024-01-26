@@ -10,6 +10,7 @@
   justify-content: center;
   margin-bottom: 44px;
   cursor: pointer;
+  margin-top: 10px;
 }
 div.sbmt h1 {
   color: var(--Pure-White, #fff);
@@ -29,5 +30,6 @@ div.sbmt h1 {
 @media screen and (1000px < width) {
   .sbmt {
     width: 340px;
+    margin-top: 0px;
   }
 }

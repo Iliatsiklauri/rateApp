@@ -1,8 +1,8 @@
 import React from 'react';
 import './submit.css';
-const Submit = () => {
+const Submit = ({ onClick }) => {
   return (
-    <div className="sbmt">
+    <div className="sbmt" onClick={onClick}>
       <h1>Submit</h1>
     </div>
   );

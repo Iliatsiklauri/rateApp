@@ -24,5 +24,3 @@ const Buttons = ({ data }) => {
     </div>
   );
 };
-
-export default Buttons;
