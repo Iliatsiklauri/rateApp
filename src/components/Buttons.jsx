@@ -16,7 +16,6 @@ const Buttons = ({ data }) => {
           onClick={() => {
             handleButtonCLick(index);
             console.log(index);
-            console.log('ilia');
           }}
         >
           {el}
