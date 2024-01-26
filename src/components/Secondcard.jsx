@@ -4,7 +4,7 @@ import Content from './Content';
 const Secondcard = ({ value }) => {
   return (
     <div className="seccondCard">
-      <img src="public\Online payment_Two Color(1) 2.png" alt="" className="img" />
+      <img src="Online payment_Two Color(1) 2.png" alt="" className="img" />
       <div className="answer">
         <p>you selected {value} out of 5</p>
       </div>
