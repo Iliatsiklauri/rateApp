@@ -21,7 +21,7 @@ const Firstcard = () => {
 
     return (
       <div className="firstcard">
-        <img src="public\Group 4 (1).png" alt="" className="star1" />
+        <img src="Group 4 (1).png" alt="" className="star1" />
 
         <Content
           title={'How did we do?'}
